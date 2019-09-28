@@ -1,13 +1,3 @@
-### https://raw.github.com/github/gitignore/8f83007b2988788cc5e6e16be30c18ef701beac5/community/Python/JupyterNotebooks.gitignore
-
-# gitignore template for Jupyter Notebooks
-# website: http://jupyter.org/
-
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
-
-# Remove previous ipynb_checkpoints
-#   git rm -r .ipynb_checkpoints/
-#
-
-
+/.cache/
