@@ -11,3 +11,9 @@ def jupyter(c):
         --config {JUPYTER_CONFIG}             \\
         --notebook-dir {JUPYTER_NOTEBOOK_DIR}
     """)
+
+@task
+def setup_wolfram(c):
+    with c.cd("deps/wolfram"):
+        c.run("wolframscript -f configure-jupyter.wls remove")
+        c.run("wolframscript -f configure-jupyter.wls add")
