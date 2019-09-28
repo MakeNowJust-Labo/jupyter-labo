@@ -8,6 +8,7 @@ jupyter = "*"
 
 [packages]
 invoke = "*"
+jupyterlab = "*"
 
 [requires]
 python_version = "3.7"
